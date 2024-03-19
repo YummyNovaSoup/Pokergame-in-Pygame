@@ -1,0 +1,9 @@
+cards5list = []
+for i in range(7):
+    for j in range(i+1,7):
+        changecards = [1,2,3,4,5,6,7]
+        del changecards[j]
+        del changecards[i]
+        cards5list.append(changecards)
+
+print(len(cards5list))
